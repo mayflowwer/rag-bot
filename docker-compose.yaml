@@ -1,0 +1,6 @@
+services:
+  rag-bot:
+    container_name: rag-bot
+    build: .
+    volumes:
+      - ./knowledge_base:/app/knowledge_base
